@@ -1,0 +1,83 @@
+body{
+    background:#4FC62C ;
+    color:white;
+    margin:0;
+  }
+  header{
+    text-align:center;
+    font-size:18px;
+  }
+  form{
+    background-color:#41C62C ;
+    display:block;
+    align-items:center;
+  }
+  #description{
+    background-color:#34E073 ;  
+    border-radius:5px;
+    padding:5px;
+    background:linear-gradient(90deg,#41C62C,#34E073,80%,#41C62C);
+    
+  }
+  #title{
+    padding:15px 15px 7px 15px;
+  }
+  fieldset{border:0;}
+  label{display:block;
+  margin-right:60%;
+  margin-left:30%;
+  margin-bottom:15px;
+  margin-top:15px;
+  font-size:18px;}
+  input{border:0;
+  padding:10px;
+    width:500px
+  }
+  select{
+    margin-left:30%;
+    margin-top:10px;
+    width:500px;
+    border:none;
+    padding:10px
+  }
+  h2{text-align:center;
+  border:white solid 1px;
+  padding:5px;
+  margin-left:10%;
+  margin-right:10%;}
+  .nd{
+    display:block;
+    
+  }
+  .nd label{
+    position:relative;
+  
+  }
+  #sub{display:block;
+    text-align:center;
+    align-items:center;
+  }
+  #submit{
+    width:770px;font:15px bold;transition-duration:1s;
+    }
+  textarea{
+    width:600px;
+    height:250px;
+  }
+  .te{
+   
+    text-align:center;
+    align-items:center;}
+    #submit:hover{background:linear-gradient(90deg,#41C62C,#34E073,80%,#41C62C);
+    color:#ffffff ;
+    font:15px bold;transition-duration:1s;
+    }
+  
+  #pt{margin-top:20px;
+    text-align:center;
+    width:300px;
+    text-decoration-line:underline;
+  }
+  
+  
+  

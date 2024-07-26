@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <link rel="stylesheet" href="styles.css">
+    <title>
+      myfirstform
+    </title>
+  </head>
+    <body>
+      <header>
+       <h1 id="title">traveller survey form</h1>
+       <p id="description">Thanks for helping our platform improve</p>
+      </header>
+      <main>
+        <form id="survey-form">
+          <fieldset><label id="name-label"><p>name: </p><input required id="name" type="text" placeholder="name please">
+            </label>
+          <label id="email-label"><p>email: </p><input required id="email" type="email" placeholder="email address please">
+            </label>
+          
+          <label id="number-label"><p> age:  </p><input required id="number" type="number" min="18" max="120" placeholder="age please"> 
+            </label>
+          </fieldset>
+          <fieldset>
+            <select id="dropdown">
+              <p>which type of account are you creating?</p>
+              <option>professional account
+              </option>
+              <option>entreprise account
+              </option>
+              <option>unformal account
+              </option>
+              <option>personnal account
+              </option>
+            </select>
+          </fieldset>
+          <fieldset class="nd"><h2>rate your experience</h2>
+            <label >5 stars:<input class="innnp" name="rad" type="radio" value="5"></label>
+            <label> 4 stars :<input name="rad" type="radio" value="4">
+            </label>
+            <label >3 stars :<input name="rad" type="radio" value="3">
+            </label>
+            <label>2 stars :<input name="rad" type="radio" value="2">
+            </label>
+            <label>1 stars :<input name="rad" type="radio" value="1">
+            </label>
+            <label>awful :<input name="rad" type="radio" value="0">
+            </label>
+            <h2>heard about us from: </h2>
+            <label>youtube<input type="checkbox" value="98" name="cb">
+            </label>
+            <label>facebook<input type="checkbox" value="15" name="cb"> 
+            </label>
+            <label>other<input type="checkbox" value="0" name="cb" checked> 
+            </label>
+            <label class="te">
+            <p id="pt">Other suggestions for the platform</p>
+            <textarea placeholder="Other suggestions for the platform">
+            </textarea></label>
+          </fieldset><label id="sub">
+          <input id="submit" type="submit" content="submit"></label>
+        </form>
+      </main>
+    </body>
+</html>
